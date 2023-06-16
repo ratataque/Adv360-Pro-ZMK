@@ -15,8 +15,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
   behaviors {
@@ -57,13 +57,13 @@
             >;
         };
 
-        layer_fn {
+        layer_bt {
             bindings = <
- &kp F1                &kp F2                &kp F3                 &kp F4                  &kp F5  &kp F6             &none                                                   &none  &kp F7            &kp F8           &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &macro_e_deux_points  &macro_e_accent_aigu  &macro_e_accent_grave  &macro_e_accent_circon  &trans             &none                                                   &none  &trans  &macro_c_cedille  &macro_a_accent   &trans   &trans   &trans
- &trans                &trans                &trans                 &trans                  &trans  &trans             &none  &trans  &trans                  &trans  &trans   &none  &trans            &trans           &trans   &trans   &trans   &trans
- &trans                &trans                &trans                 &trans                  &trans  &trans                            &trans                  &trans                  &trans            &trans           &trans   &trans   &trans   &trans
- &trans                &trans                &trans                 &trans                  &trans                    &trans  &trans  &trans                  &trans  &trans  &trans                    &trans           &trans   &trans   &trans   &trans
+ &kp F1                &kp F2                &kp F3                 &kp F4                  &kp F5  &kp F6            &none                                                   &none  &kp F7                &kp F8                &kp F9       &kp F10       &kp F11  &kp F12
+  &none  &macro_e_deux_points  &macro_e_accent_aigu  &macro_e_accent_grave  &macro_e_accent_circon   &none            &none                                                   &none   &none      &macro_c_cedille       &macro_a_accent         &none         &none    &none
+  &none        &kp K_PREVIOUS      &kp K_PLAY_PAUSE             &kp K_NEXT       &kp C_RANDOM_PLAY   &none            &none   &none   &none                   &none   &none   &none   &none          &bt BT_SEL 0          &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &none
+  &none                 &none                 &none                  &none                   &none   &none                            &none                   &none                   &none            &bt BT_CLR                 &none         &none         &none    &none
+  &none                 &none            &bl BL_DEC             &bl BL_INC              &bl BL_TOG                    &none   &none   &none                   &none   &none   &none          &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC         &none         &none    &none
             >;
         };
 
