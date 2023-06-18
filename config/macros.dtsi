@@ -10,6 +10,9 @@ label = "macro_c_cedille";
 #binding-cells = <0>;
 bindings = <&kt LALT>, <&kp E>, <&kp KP_NUMBER_7>;
 };
+
+ZMK_UNICODE_PAIR( de_ae,   N0, N0,  E, N4,   N0, N0,  C, N4 )
+
 macro_e_deux_points: macro_e_deux_points{
 compatible = "zmk,behavior-macro";
 label = "macro_e_deux_points";
