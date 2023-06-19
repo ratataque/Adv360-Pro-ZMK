@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
- &kp GRAVE   &none         &none     &none     &kp F4   &none                  &none                                                                   &kp KP_NUMLOCK   &none     &none      &none          &none     &none      &none
-   &kp TAB   &kp Q         &kp W     &kp E      &kp R   &kp T            &bootloader                                                                      &bootloader   &kp Y     &kp U      &kp I          &kp O     &kp P   &kp BSLH
- &kp LCTRL   &kp A         &kp S     &kp D      &kp F   &kp G                  &none  &kp LEFT_WIN     &none                      &none  &kp LEFT_WIN           &none   &kp H     &kp J      &kp K          &kp L  &kp SEMI    &kp SQT
- &kp LSHFT   &kp Z         &kp X     &kp V      &kp C   &kp B                                       &kp HOME                  &kp PG_UP                                 &kp N     &kp M  &kp COMMA        &kp DOT  &kp FSLH  &kp RSHFT
-     &none   &mo 2  &kp LEFT_WIN  &kp LEFT  &kp RIGHT                          &mo 1      &kp LALT   &kp END                      &mo 1    &kp ESCAPE       &kp SPACE          &kp DOWN     &kp UP  &kp RIGHT_WIN     &mo 2      &none
+ &kp GRAVE  &macro_e_deux_points  &macro_e_accent_aigu  &macro_e_accent_circon     &kp F4  &macro_e_o                  &none                                                                   &kp KP_NUMLOCK   &none  &macro_e_accent_grave  &macro_c_cedille  &macro_a_accent     &none      &none
+   &kp TAB                 &kp Q                 &kp W                   &kp E      &kp R       &kp T            &bootloader                                                                      &bootloader   &kp Y                  &kp U             &kp I            &kp O     &kp P   &kp BSLH
+ &kp LCTRL                 &kp A                 &kp S                   &kp D      &kp F       &kp G                  &none  &kp LEFT_WIN     &none                      &none  &kp LEFT_WIN           &none   &kp H                  &kp J             &kp K            &kp L  &kp SEMI    &kp SQT
+ &kp LSHFT                 &kp Z                 &kp X                   &kp V      &kp C       &kp B                                       &kp HOME                  &kp PG_UP                                 &kp N                  &kp M         &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
+     &none                 &mo 2          &kp LEFT_WIN                &kp LEFT  &kp RIGHT                              &mo 1      &kp LALT     &mo 2                      &mo 1    &kp ESCAPE       &kp SPACE                       &kp DOWN            &kp UP    &kp RIGHT_WIN     &mo 2      &none
             >;
         };
 
