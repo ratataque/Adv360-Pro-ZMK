@@ -18,6 +18,7 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/rgb.h>
 #include "keymap_french.h"
+#include "french_unicode.dtsi"
 
 / {
   behaviors {
@@ -40,7 +41,7 @@
 
         default_layer {
             bindings = <
- &kp GRAVE  &macro_e_deux_points  &kp FR_EACU  &macro_e_accent_circon     &kp F4  &macro_e_o                  &none                                                                   &kp KP_NUMLOCK   &none  &kp FR_EGRV  &kp FR_CCED  &kp FR_AGRV     &none      &none
+ &kp GRAVE  &macro_e_deux_points  &EAig  &macro_e_accent_circon     &kp F4  &macro_e_o                  &none                                                                   &kp KP_NUMLOCK   &none  &kp FR_EGRV  &kp FR_CCED  &kp FR_AGRV     &none      &none
    &kp TAB                 &kp Q                 &kp W                   &kp E      &kp R       &kp T            &bootloader                                                                      &bootloader   &kp Y                  &kp U             &kp I            &kp O     &kp P   &kp BSLH
  &kp LCTRL                 &kp A                 &kp S                   &kp D      &kp F       &kp G                  &none  &kp LEFT_WIN     &none                      &none  &kp LEFT_WIN           &none   &kp H                  &kp J             &kp K            &kp L  &kp SEMI    &kp SQT
  &kp LSHFT                 &kp Z                 &kp V                   &kp X      &kp C       &kp B                                       &kp HOME                  &kp PG_UP                                 &kp N                  &kp M         &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
