@@ -17,9 +17,9 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/rgb.h>
+#include "helper.h"
 #include "keymap_french.h"
 #include "french_unicode.dtsi"
-#include "helper.h"
 
 
 / {
