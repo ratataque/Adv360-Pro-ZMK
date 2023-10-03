@@ -23,6 +23,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
+    #include "french_unicode.dtsi"
 
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
