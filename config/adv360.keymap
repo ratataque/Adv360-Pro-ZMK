@@ -19,6 +19,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include "keymap_french.h"
 #include "french_unicode.dtsi"
+#include "helper.h"
+
 
 / {
   behaviors {
