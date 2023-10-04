@@ -44,7 +44,7 @@
 
         default_layer {
             bindings = <
- &kp GRAVE  &macro_e_deux_points  &EAig  &macro_e_accent_circon     &kp F4  &macro_e_o                  &none                                                                   &kp KP_NUMLOCK   &none  &kp FR_EGRV  &kp FR_CCED  &kp FR_AGRV     &none      &none
+ &kp GRAVE  &ETre  &EAig  &ECir     &kp F4  &OE                  &none                                                                   &kp KP_NUMLOCK   &AE  &EGr  &CCed  &AGr     &none      &none
    &kp TAB                 &kp Q                 &kp W                   &kp E      &kp R       &kp T            &bootloader                                                                      &bootloader   &kp Y                  &kp U             &kp I            &kp O     &kp P   &kp BSLH
  &kp LCTRL                 &kp A                 &kp S                   &kp D      &kp F       &kp G                  &none  &kp LEFT_WIN     &none                      &none  &kp LEFT_WIN           &none   &kp H                  &kp J             &kp K            &kp L  &kp SEMI    &kp SQT
  &kp LSHFT                 &kp Z                 &kp V                   &kp X      &kp C       &kp B                                       &kp HOME                  &kp PG_UP                                 &kp N                  &kp M         &kp COMMA          &kp DOT  &kp FSLH  &kp RSHFT
@@ -54,7 +54,7 @@
 
         layer_keypad {
             bindings = <
-            &none            &none         &none         &none         &none         &none            &none                                                              &none            &none                 &none                  &none          &none      &none          &none
+ &kp GRAVE  &macro_e_deux_points  &macro_e_accent_aigu  &macro_e_accent_circon     &kp F4  &macro_e_o                  &none                                                                   &kp KP_NUMLOCK   &none  &kp FR_EGRV  &kp FR_CCED  &kp FR_AGRV     &none      &none
           &kp TAB  &kp EXCLAMATION        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT            &none                                                              &none    &kp AMPERSAND  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS      &kp MINUS  &kp EQUAL  &kp BACKSPACE
  &kp LEFT_CONTROL     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5            &none     &none   &none                      &none      &none      &none  &kp KP_MULTIPLY      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp GRAVE  &kp TILDE  &kp BACKSPACE
         &kp LSHFT     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                              &none                  &kp PG_UP                              &kp CARET         &kp BACKSPACE              &kp COMMA        &kp DOT  &kp SLASH      &kp RSHFT
