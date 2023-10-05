@@ -1,16 +1,16 @@
 /* French letters */
 
-ZMK_UNICODE_PAIR(AGr,		FR_0, FR_0,    E, FR_0,		FR_0, FR_0,    C, FR_0)	// à/À
-ZMK_UNICODE_PAIR(AE,		FR_0, FR_0,    E, FR_6,		FR_0, FR_0,    C, FR_6)	// æ/Æ
-ZMK_UNICODE_PAIR(OE,		FR_0, FR_1, FR_5, FR_3,		FR_0, FR_1, FR_5, FR_2)	// œ/Œ
-ZMK_UNICODE_PAIR(CCed,		FR_0, FR_0,    E, FR_7,		FR_0, FR_0,    C, FR_7)	// ç/Ç
-ZMK_UNICODE_PAIR(EAig,		FR_0, FR_0,    E, FR_9,		FR_0, FR_0,    C, FR_9)	// é/É
-ZMK_UNICODE_PAIR(EGr,		FR_0, FR_0,    E, FR_8,		FR_0, FR_0,    C, FR_8)	// è/È
-ZMK_UNICODE_PAIR(ECir,		FR_0, FR_0,    E, B,		FR_0, FR_0,    C, B)	// è/È
-ZMK_UNICODE_PAIR(ETre,		FR_0, FR_0,    E, A,		FR_0, FR_0,    C, A)	// è/È
-ZMK_UNICODE_PAIR(UGr,		FR_0, FR_0,    F, FR_9,		FR_0, FR_0,    D, FR_9)	// ù/Ù
-ZMK_UNICODE_PAIR(SqCb,		FR_0, FR_0,    B, FR_2,		FR_0, FR_0,    B, FR_3) // ²/³
-ZMK_UNICODE_PAIR(ExcBkS,	FR_0, FR_0, FR_2, FR_1,		FR_0, FR_0, FR_5,    C) // !/
+ZMK_UNICODE_PAIR(AGr,		N0, N0,    E, N0,		N0, N0,    C, N0)	// à/À
+ZMK_UNICODE_PAIR(AE,		N0, N0,    E, N6,		N0, N0,    C, N6)	// æ/Æ
+ZMK_UNICODE_PAIR(OE,		N0, N1, N5, N3,		N0, N1, N5, N2)	// œ/Œ
+ZMK_UNICODE_PAIR(CCed,		N0, N0,    E, N7,		N0, N0,    C, N7)	// ç/Ç
+ZMK_UNICODE_PAIR(EAig,		N0, N0,    E, N9,		N0, N0,    C, N9)	// é/É
+ZMK_UNICODE_PAIR(EGr,		N0, N0,    E, N8,		N0, N0,    C, N8)	// è/È
+ZMK_UNICODE_PAIR(ECir,		N0, N0,    E, B,		N0, N0,    C, B)	// è/È
+ZMK_UNICODE_PAIR(ETre,		N0, N0,    E, A,		N0, N0,    C, A)	// è/È
+ZMK_UNICODE_PAIR(UGr,		N0, N0,    NN9,		N0, N0,    D, N9)	// ù/Ù
+ZMK_UNICODE_PAIR(SqCb,		N0, N0,    B, N2,		N0, N0,    B, N3) // ²/³
+ZMK_UNICODE_PAIR(ExcBkS,	N0, N0, N2, N1,		N0, N0, N5,    C) // !/
 
 ZMK_UNICODE_SINGLE(Micro,	FR_0, FR_0,    B, FR_5) 							// µ
 ZMK_UNICODE_SINGLE(Inf,		FR_0, FR_0, FR_3,    C) 							// <
